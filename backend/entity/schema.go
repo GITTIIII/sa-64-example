@@ -22,3 +22,12 @@ type Gender struct {
 	gorm.Model
 	Name string
 }
+
+
+type Member struct {
+	gorm.Model
+	PhoneNumber string `gorm:"uniqueIndex" valid:"required~Phone is required, matches(^[0]\\d{9}$)~PhoneNumber length is not 10 digits."`
+	Password string 
+	Url string `valid:"url~Url is invalid"`
+}
+

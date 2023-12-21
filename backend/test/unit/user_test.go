@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/GITTIIII/sa-66-example/entity"
 	"github.com/asaskevich/govalidator"
 	. "github.com/onsi/gomega"
-	"github.com/tanapon395/sa-66-example/entity"
 )
 
 func TestStudentID(t *testing.T) {

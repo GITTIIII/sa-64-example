@@ -9,10 +9,10 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"github.com/GITTIIII/sa-66-example/controller"
+	"github.com/GITTIIII/sa-66-example/entity"
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/assert"
-	"github.com/tanapon395/sa-66-example/controller"
-	"github.com/tanapon395/sa-66-example/entity"
 )
 
 type resp struct {

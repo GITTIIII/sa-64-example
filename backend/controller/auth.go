@@ -3,9 +3,9 @@ package controller
 import (
 	"net/http"
 
+	"github.com/GITTIIII/sa-66-example/entity"
+	"github.com/GITTIIII/sa-66-example/service"
 	"github.com/gin-gonic/gin"
-	"github.com/tanapon395/sa-66-example/entity"
-	"github.com/tanapon395/sa-66-example/service"
 )
 
 // LoginPayload login body
