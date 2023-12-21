@@ -4,7 +4,10 @@ import (
 	"net/http"
 
 	"github.com/GITTIIII/sa-66-example/entity"
+<<<<<<< HEAD
 	"github.com/asaskevich/govalidator"
+=======
+>>>>>>> deb5e6869fd57805e6f3f229cf32995183bdf5dd
 	"github.com/gin-gonic/gin"
 )
 
